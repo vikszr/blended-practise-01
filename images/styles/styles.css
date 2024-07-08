@@ -1,0 +1,237 @@
+body {
+  font-family: "Ro boto", sans-serif;
+  color: #2c2c2c;
+  background-color: #fefefe;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+/* ------------------- */
+
+/* -------HEADER--------- */
+
+.container {
+  max-width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.header {
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.navigation {
+  margin-right: 30px;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+}
+
+.navigation-list-item {
+}
+
+.navigation-link {
+  display: block;
+  font-size: 14px;
+  padding: 28px 0;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #bbf330;
+}
+.button-order-now {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  cursor: pointer;
+  background-color: #bbf330;
+  border-radius: 30px;
+  padding: 0 17px;
+  min-width: 98px;
+  height: 32px;
+  border: none;
+}
+
+/* --------------- */
+
+/* ---------SECTION 1--------- */
+
+.hero {
+  padding-top: 14px;
+  padding-bottom: 69px;
+}
+
+.hero-title {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.hero-text {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.button-order-now {
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text-wrap {
+  max-width: 511px;
+  margin-right: 143px;
+}
+
+/* ----------------- */
+
+/* ----------SECTION 2------------ */
+
+.about {
+  padding-top: 113px;
+  padding-bottom: 124px;
+  background-color: #ffe550;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.about-text-wrap {
+  margin-left: 90px;
+  max-width: 573px;
+}
+
+.about-title {
+  font-size: 42px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.about-list {
+  display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
+}
+
+.about-list-item {
+  width: calc((100% - 67px) / 2);
+}
+
+.about-subtitle {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.about-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.about-btn {
+  background-color: #fff;
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+}
+
+/* ---------------- */
+
+/* --------------SECTION 3------------- */
+
+.favourite {
+  padding-top: 120px;
+  padding-bottom: 101px;
+  margin-top: 32px;
+}
+
+.favourite-title {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.favourite-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.favourite-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.favourite-list-item {
+  width: calc((100% - 64px) / 3);
+}
+
+/* ------------------------- */
+
+/* --------------SECTION 4-------------- */
+
+.customers {
+}
+.container {
+}
+.customers-container {
+}
+.customers-title {
+}
+.customers-text {
+}
+.customers-list {
+}
+.customers-list-item {
+}
+.customers-description {
+}
+.customers-subtitle {
+}
+.customers-subtext {
+}
+
+/* ---------------- */
+
+/* ----------------SECTION 5-------------- */
