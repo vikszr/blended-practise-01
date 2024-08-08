@@ -269,6 +269,9 @@ h4 {
 /* --------------SECTION 4-------------- */
 
 .customers {
+  padding-top: 140px;
+  padding-bottom: 126px;
+  /* background-color: #ffe550; */
 }
 .container {
 }
