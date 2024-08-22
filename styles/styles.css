@@ -1,5 +1,5 @@
 body {
-  font-family: "Ro boto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #2c2c2c;
   background-color: #fefefe;
   margin: 0;
@@ -39,6 +39,8 @@ h4 {
 }
 
 .header {
+  box-shadow: 0 4px 24px 0 rgba(105, 105, 105, 0.1);
+  background: #fefefe;
 }
 
 .header-container {
@@ -236,7 +238,6 @@ h4 {
 .favourite {
   padding-top: 120px;
   padding-bottom: 101px;
-  margin-top: 32px;
 }
 
 .favourite-title {
@@ -271,25 +272,69 @@ h4 {
 .customers {
   padding-top: 140px;
   padding-bottom: 126px;
-  /* background-color: #ffe550; */
+
+  background-color: #ffe550;
 }
+
 .container {
 }
+
 .customers-container {
+  padding: 0 32px;
 }
+
 .customers-title {
+  font-size: 28px;
+  margin-bottom: 20px;
 }
+
 .customers-text {
+  margin-bottom: 32px;
 }
+
 .customers-list {
+  display: flex;
+  align-items: center;
+  gap: 139px;
 }
+
 .customers-list-item {
+  background-color: #fefefe;
+  border-radius: 0 30px 30px 30px;
+  width: 501px;
+  height: 231px;
+  padding: 14px;
 }
+
 .customers-description {
+  display: inline-block;
+  font-style: 18px;
+  margin-bottom: 41px;
 }
+
+.customers-wraper {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #7eb101;
+  width: 160px;
+}
+
+.customers-image {
+}
+
+.customers-text-wraper {
+  flex-direction: column;
+  margin-left: 16px;
+  line-height: 1.5;
+}
+
 .customers-subtitle {
+  font-size: 14px;
 }
+
 .customers-subtext {
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .feeedback-list-icon {
@@ -297,6 +342,7 @@ h4 {
   gap: 4px;
   margin-bottom: 29px;
 }
+
 .feedback-icon {
   fill: #ffe550;
 }
@@ -304,3 +350,65 @@ h4 {
 /* ---------------- */
 
 /* ----------------SECTION 5-------------- */
+
+.subscribe {
+  padding-top: 176px;
+  padding-bottom: 201px;
+}
+
+.container {
+}
+
+.subscribe-container {
+  padding-left: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-container-text {
+}
+
+.subscribe-title {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.subscribe-text {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.submit-input {
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding: 10px;
+  width: 395px;
+  height: 42px;
+  background: #fefefe;
+  margin-right: 32px;
+}
+
+.subscribe-button {
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 103px;
+  height: 42px;
+  background: #bbf330;
+  font-size: 13px;
+}
+
+.subscribe-image {
+}
+
+/* ----------------------- */
+
+/* ------------- FOOTER -------------- */
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: 0 -4px 24px 0 rgba(105, 105, 105, 0.1);
+  background: #fefefe;
+}
